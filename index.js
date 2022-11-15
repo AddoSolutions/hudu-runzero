@@ -7,7 +7,7 @@ let cron = require("node-cron")
 class HuduPull{
 
     async go(){
-        await Hudu.generateGayFieldTypesToGangerserOnes()
+        await Hudu.generateDumbFieldTypesToGangerserOnes()
 
 
         //let t = await Hudu.getAssetLayouts();
