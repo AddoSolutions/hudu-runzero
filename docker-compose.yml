@@ -1,0 +1,5 @@
+hudupull:
+  build: .
+  volumes:
+    - ./.env:/app/.env
+  restart: unless-stopped
